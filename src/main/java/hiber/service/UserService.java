@@ -10,4 +10,6 @@ public interface UserService {
     List<User> listUsers();
 
     User getUserByCarModelAndSeries(String model, int series);
+
+    void update(User user);
 }
